@@ -1,0 +1,11 @@
+.logo {
+    width: 32px;
+}
+
+.bg-button {
+    background-color: #A0BCE9;    
+}
+
+.hover\:bg-button:hover {
+    background-color: rgba($color: #A0BCE9, $alpha: 0.8);
+}
