@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bengala": {
+    "soulsist": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,14 +17,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bengala",
+            "outputPath": "dist/soulsist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
+              "src/soulsist_icon.png",
               "src/assets"
             ],
             "styles": [
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "bengala:build"
+            "browserTarget": "soulsist:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "bengala:build:production"
+              "browserTarget": "soulsist:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bengala:build"
+            "browserTarget": "soulsist:build"
           }
         },
         "test": {
@@ -87,7 +87,7 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/favicon.ico",
+              "src/soulsist_icon.png",
               "src/assets"
             ],
             "styles": [
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "bengala:serve"
+            "devServerTarget": "soulsist:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "bengala:serve:production"
+              "devServerTarget": "soulsist:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "bengala"
+  "defaultProject": "soulsist"
 }

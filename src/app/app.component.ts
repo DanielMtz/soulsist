@@ -28,7 +28,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     const ro = new ResizeObserver((entries, observer) => {
       entries.forEach((entry, index) => {
         const { inlineSize: width, blockSize: height } = entry.contentBoxSize[0];
-        if(this.scroll) {
+        if (this.scroll) {
           this.scroll.update();
         }
       });

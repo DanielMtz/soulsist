@@ -1,5 +1,5 @@
 {
-  "name": "bengala",
+  "name": "soulsist",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~11.2.4",
     "@angular/router": "~11.2.4",
     "@juggle/resize-observer": "^3.3.1",
+    "@typeform/embed": "^1.34.1",
     "locomotive-scroll": "^4.1.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
